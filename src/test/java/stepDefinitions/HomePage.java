@@ -17,6 +17,7 @@ public class HomePage {
 	
 	@Given("^the user navigates to the YourLogo site$")
 	public void the_user_navigates_to_the_YourLogo_site() throws Throwable {
+		//Added as part of GitHub commit!!
 		String drvChromePath = "C:\\Selenium\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", drvChromePath);
 		driver = new ChromeDriver();
