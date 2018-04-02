@@ -1,0 +1,91 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User access YourLogo site",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13461027354,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user navigates to the YourLogo site",
+            "match": {
+              "location": "HomePage.the_user_navigates_to_the_YourLogo_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 35986177,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the page title displays as My Store",
+            "match": {
+              "location": "HomePage.the_page_title_displays_as_My_Store()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Validate the Dresses menu items display",
+        "description": "",
+        "id": "validate-the-dresses-menu-items-display;validate-the-dresses-menu-items-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 204194,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the user selects the Dresses menu item",
+            "match": {
+              "location": "HomePage.the_user_selects_the_Dresses_menu_item()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 926288757,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the available menu items displays",
+            "match": {
+              "location": "HomePage.the_available_menu_items_displays()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Validate the Dresses menu items display",
+    "description": "",
+    "id": "validate-the-dresses-menu-items-display",
+    "keyword": "Feature",
+    "uri": "valMenuItems.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
